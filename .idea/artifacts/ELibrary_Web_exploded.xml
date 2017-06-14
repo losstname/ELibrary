@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ELibrary:Web exploded">
+    <output-path>/opt/tomcat/apache-tomcat-8.5.15/webapps/ELibrary</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ELibrary/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ELibrary" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Downloads/mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
